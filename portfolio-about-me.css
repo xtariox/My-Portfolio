@@ -1,0 +1,87 @@
+.About-me-page{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(184, 219, 217,15%);
+}
+
+.my-picture{
+  border-radius: 100%;  
+  width: 500px;
+  background-color: rgba(199, 239, 207, 0.5);
+  margin: 0;
+  padding: 0;
+}
+
+
+.about-container{
+  display: flex;
+  padding: 0% 10%;
+}
+
+.title-of-page{
+  font-size: 50px;
+  color: #DDB377;
+  font-weight: 620;
+}
+
+.underline{
+  border-bottom: 5px solid #DDB377;
+  padding-bottom: 2px;
+  width: 200px;
+}
+
+.title-underlined{
+  display: flex;              /* establish flex container */
+  flex-direction: column;     /* stack flex items vertically */
+  align-items: center;        /* center items horizontally*/
+  justify-content: center;    /* center items vertically */
+  padding-top: 5%;
+}
+
+.hello{
+  font-size: 35px;
+  font-weight: 620;
+}
+
+.name{
+  color: #C7EFCF;
+}
+
+.self-description{
+  font-size: 25px;
+  width: 82%;
+}
+
+.hello,
+.self-description,
+.check-resume-button
+{
+  margin: 0px 0px 60px 100px;
+}
+
+.content-about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.check-resume-button{
+  width: 200px;
+  padding: 20px 10px;
+  border: none;
+  background-color: #DDB377;
+  border-radius: 50px;
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  vertical-align: top;
+}
+.check-resume-button:hover{
+  opacity: 0.8;
+}
+.check-resume-button:active{
+  opacity: 0.5;
+}

@@ -1,0 +1,61 @@
+
+.content{
+  margin: 150px;
+  font-size: 40px;
+}
+
+
+
+.introduction{
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.find-me-button{
+  width: 133 px;
+  height: 61px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #DDB377;
+  border-radius: 50px;
+  font-size: 29px;
+  font-weight: 400;
+  color: white;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  vertical-align: top;
+}
+.find-me-button:hover{
+  opacity: 0.8;
+}
+.find-me-button:active{
+  opacity: 0.5;
+}
+
+.find-me-container{
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+
+}
+
+.social-media{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 130px;
+  margin-top: 5px;
+}
+
+.face-icon{
+  height: 28px;
+}
+
+.insta-icon{
+  height: 28px;
+}
+
+.link-icon{
+  height: 28px;
+}

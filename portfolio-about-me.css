@@ -1,7 +1,10 @@
-.About-me-page{
+#About-me-page{
   width: 100%;
   height: 100vh;
   background-color: rgb(184, 219, 217,15%);
+  position: relative;
+  transition: background-color 0.5s ease;
+  overflow: hidden;
 }
 
 .my-picture{
@@ -65,4 +68,9 @@
 }
 .check-resume-button:active{
   opacity: 0.5;
+}
+
+.check-resume-button a {
+  text-decoration: none;
+  color: white;
 }

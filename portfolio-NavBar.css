@@ -1,7 +1,7 @@
-.NavBar{
+#NavBar{
   width: 85%;
   margin: auto;
-  padding: 20px 0;
+  padding: 10px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -15,14 +15,14 @@
   cursor: pointer;
 }
 
-.NavBar ul li {
+#NavBar ul li {
   list-style: none;
   display: inline-block;
   margin: 0 20px;
   position: relative;
 }
 
-.NavBar ul li a {
+#NavBar ul li a {
   text-decoration: none;
   color: white;
   text-transform:none;
@@ -30,7 +30,7 @@
   font-size: 16px;
 }
 
-.NavBar ul li::after{
+#NavBar ul li::after{
   content:'' ;
   height: 3px;
   width: 0;
@@ -42,10 +42,10 @@
   transition: 0.5s;
 }
 
-.NavBar ul li:hover::after{
+#NavBar ul li:hover::after{
   width: 100%;
 }
 
-.NavBar li a:hover{
+#NavBar li a:hover{
   color: #DDB377;
 }

@@ -1,4 +1,4 @@
-.Resume-page-grid{
+#Resume-page-grid{
   width: 100%;
   height: 100vh;
 }
@@ -45,8 +45,8 @@
 }
 
 .download-resume-button{
-  width: 20%;
-  padding: 20px 10px;
+  width: 100%;
+  padding: 20px 30px;
   border: none;
   background-color: #DDB377;
   border-radius: 50px;
@@ -65,7 +65,11 @@
 }
 
 .resume-button-container{
-  margin-top: 5%;
+  margin: 5%;
   display: grid;
   place-items: center;
 }
+ .download-resume-button a{
+  color: white;
+  text-decoration: none;
+ }

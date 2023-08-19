@@ -14,22 +14,25 @@
     <link rel="stylesheet" href="portfolio-NavBar.css">
     <link rel="stylesheet" href="portfolio-about-me.css">
     <link rel="stylesheet" href="portfolio-resume-page.css">
-
+    <link rel="stylesheet" href="portfolio-skills.css">
+   
  
   </head>
   <body>
-    <main class="home-page">
+
+    <main id="home-page">
+      <button onclick="topFunction()" id="scrollupButton" title="Go to top">&#9650</button>
 
       <section class="banner">
 
-        <nav class="NavBar">
+        <nav id="NavBar">
           <div class="logo-container">
             My SPACE
           </div>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
+            <li><a href="#home-page">Home</a></li>
+            <li><a href="#About-me-page">About</a></li>
+            <li><a href="#Resume-page-grid">Resume</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
         </nav>
@@ -41,13 +44,19 @@
             <button class="find-me-button">find me</button>
             <div class="social-media">
               <div>
-                <img class="insta-icon" src="/instagram.png">
+                <a href="https://www.instagram.com/xtariox/" target="_blank">
+                  <img class="insta-icon" src="/instagram.png">
+                </a>
               </div>
               <div>
-                <img class="face-icon" src="/facebook (1).png">
+                <a href="https://www.facebook.com/xtariox" target="_blank">
+                  <img class="face-icon" src="/facebook (1).png">
+                </a>
               </div>
               <div>
-                <img class="link-icon" src="/linkedin.png" >
+                <a href="https://www.linkedin.com/in/a-haida/" target="_blank">
+                  <img class="link-icon" src="/linkedin.png" >
+                </a>
               </div>
             </div>
           </div>
@@ -57,7 +66,7 @@
 
     </main>
 
-    <main class="About-me-page">
+    <main id="About-me-page">
       
         <section class="title-underlined">
           <div class="title-of-page">About Me</div>
@@ -70,7 +79,7 @@
             <div class="my-picture-container">
               <img class="my-picture" src="WhatsApp_Image_2023-08-04_à_19.43.07-removebg-preview.png">
             </div>
-            <div>
+            <div class="text-container">
               <div class="hello">HELLO? I AM <span class="name">HAIDA WISSAL</span></div>
               <div class="self-description">
                 I am a dedicated and pationate individual with 
@@ -79,7 +88,11 @@
                 my skills in coding and web developpement. 
               </div>
               <div>
-                <button class="check-resume-button">Check resume</button>
+                <a href="#Resume-page-grid">
+                <button class="check-resume-button">
+                  Check resume
+                </button>
+              </a>
               </div>
             </div>
           </div>
@@ -87,7 +100,7 @@
         </section>
     </main>
 
-    <main class="Resume-page-grid" >
+    <main id="Resume-page-grid" >
 
       <section class="title-underlined">
         <div class="title-of-page">Resume</div>
@@ -145,8 +158,95 @@
       </section>
 
       <section class="resume-button-container">
-          <button class="download-resume-button"> Download Resume </button>
+        <a target="_blank"  href="https://drive.google.com/file/d/1vTu2hj5zcWnxzZ7b17DirVRr7bz6qtm-/view?usp=drive_link">
+          <button class="download-resume-button"> 
+            Download Resume
+          </button>
+        </a>
       </section>
+
+    </main>
+
+    <main id="skillSection">
+      <section class="title-underlined">
+        <div class="title-of-page">Skills</div>
+        <div class="underline"></div>
+      </section>
+
+      <section class="skills-section">
+        <div class="small-container skills-section">
+          <div class="skill-card">
+            <img src="c-logo.png" >
+            <div class="hovered-skill-card">
+                <p><b class="bold-text"><u> C </u></b><br><br>C is a widely used and versatile
+                programming language known for
+                its efficiency and low-level control.</p>
+            </div>
+        </div>
+
+          <div class="skill-card">
+            <img src="Matlab_Logo.png">
+            <div class="hovered-skill-card">
+                <p><b class="bold-text"><u>Matlab</u></b><br><br>Matlab is a high-level programming
+                    language and environment widely
+                    used for numerical computing and
+                    data analysis.</p>
+            </div>
+        </div>
+        <div class="skill-card">
+          <img src="html5-logo.png">
+          <div class="hovered-skill-card">
+              <p><b class="bold-text"><u>Html</u></b><br><br>HTML (Hypertext Markup Language)
+                  is a standard language for creating
+                  and structuring the content of web
+                  pages.</p>
+          </div>
+      </div>
+
+      <div class="skill-card">
+          <img src="css3-logo.png" >
+          <div class="hovered-skill-card">
+              <p><b class="bold-text"><u> Css </u></b><br><br>CSS (Cascading Style Sheets) is a
+                  style sheet language used to control
+                  the presentation and layout of
+                  HTML documents.</p>
+          </div>
+      </div>
+
+      <div class="skill-card">
+          <img src="javascript-logo.png">
+          <div class="hovered-skill-card">
+              <p><b class="bold-text"><u>Java Script</u></b><br><br>JavaScript is a versatile and
+                  widely-used programming language
+                  for building interactive and
+                  dynamic web applications.</p>
+          </div>
+      </div>
+
+      <div class="skill-card">
+          <img src="vs-logo.png" >
+          <div class="hovered-skill-card">
+              <p><b class="bold-text"><u>VS Code</u></b><br><br>VS Code is a popular and versatile code editor developed by Microsoft, 
+                  known for its extensive features and robust extension ecosystem.</p>
+          </div>
+      </div>
+
+      <div class="skill-card">
+          <img src="figma-logo.png">
+          <div class="hovered-skill-card">
+              <p><b class="bold-text"><u>Figma</u></b><br><br>Figma is a collaborative design platform used for creating, prototyping, 
+                  and sharing user interfaces and interactive designs.</p>
+          </div>
+      </div>
+
+        </div>
+      </section>
+
+    </main>
+
+      
+    <script src="anima.js"></script>  
+    <script src="animation.js"></script>  
   </body>
 </html>
 

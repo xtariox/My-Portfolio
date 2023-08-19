@@ -6,7 +6,7 @@
 
 .my-picture{
   border-radius: 100%;  
-  width: 500px;
+  width: 400px;
   background-color: rgba(199, 239, 207, 0.5);
   margin: 0;
   padding: 0;
@@ -18,28 +18,9 @@
   padding: 0% 10%;
 }
 
-.title-of-page{
-  font-size: 50px;
-  color: #DDB377;
-  font-weight: 620;
-}
-
-.underline{
-  border-bottom: 5px solid #DDB377;
-  padding-bottom: 2px;
-  width: 200px;
-}
-
-.title-underlined{
-  display: flex;              /* establish flex container */
-  flex-direction: column;     /* stack flex items vertically */
-  align-items: center;        /* center items horizontally*/
-  justify-content: center;    /* center items vertically */
-  padding-top: 5%;
-}
 
 .hello{
-  font-size: 35px;
+  font-size:xx-large;
   font-weight: 620;
 }
 
@@ -48,7 +29,7 @@
 }
 
 .self-description{
-  font-size: 25px;
+  font-size: x-large;
   width: 82%;
 }
 
@@ -67,12 +48,12 @@
 }
 
 .check-resume-button{
-  width: 200px;
+  width: 30%;
   padding: 20px 10px;
   border: none;
   background-color: #DDB377;
   border-radius: 50px;
-  font-size: 25px;
+  font-size: x-large;
   font-weight: 400;
   color: white;
   cursor: pointer;

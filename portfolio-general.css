@@ -1,7 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .banner{
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.25)),url(/portfolio/WhatsApp_Image_2023-08-04_à_16.25.51-removebg.png);
+  background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.25)),url(/WhatsApp_Image_2023-08-04_à_16.25.51-removebg.png);
   background-size:contain;
   background-position: right top;
   background-repeat: no-repeat;
@@ -12,10 +18,28 @@ body{
   color: white;
   background-color: #515F5F;
   font-family: Prompt, Arial;
-  margin: 0;
-  padding: 0;
+  
   width: 100vw;
   height: 100vh;
 }
 
+.title-of-page{
+  font-size: 40px;
+  color: #DDB377;
+  font-weight: 620;
+}
+
+.underline{
+  border-bottom: 5px solid #DDB377;
+  padding-bottom: 2px;
+  width: 150px
+}
+
+.title-underlined{
+  display: flex;              /* establish flex container */
+  flex-direction: column;     /* stack flex items vertically */
+  align-items: center;        /* center items horizontally*/
+  justify-content: center;    /* center items vertically */
+  padding-top: 5%;
+}
 

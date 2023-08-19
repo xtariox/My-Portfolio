@@ -3,10 +3,69 @@
   height: 100vh;
 }
 
-
-.resume-container{
-  display: flex;
-  padding: 5% 10%;
+.resume-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 4%;
+  padding: 0 5%;
 }
 
+.resume-preview{
+  background-color: rgba(199, 239, 207, 15%);
+  border-radius: 50px;
+  margin-top: 10%;
+}
 
+.resume-icon{
+  width: 20%;
+  margin: 5% 0;
+
+}
+
+.resume-title{
+  color:#A1DBD8 ;
+  font-size: x-large;
+  display: grid;
+  place-items: center;
+}
+
+.resume-content-container{
+  padding-bottom: 10%;
+}
+.resume-content{
+  padding: 0 5%;
+  font-size: 21px;
+  display: grid;
+  place-items: left;
+}
+
+.resume-icon-container{
+  display: grid;
+  place-items: center;
+}
+
+.download-resume-button{
+  width: 20%;
+  padding: 20px 10px;
+  border: none;
+  background-color: #DDB377;
+  border-radius: 50px;
+  font-size: x-large;
+  font-weight: 400;
+  color: white;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  vertical-align: top;
+}
+.download-resume-button:hover{
+  opacity: 0.8;
+}
+.download-resume-button:active{
+  opacity: 0.5;
+}
+
+.resume-button-container{
+  margin-top: 5%;
+  display: grid;
+  place-items: center;
+}

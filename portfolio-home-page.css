@@ -12,13 +12,13 @@
 }
 
 .find-me-button{
-  width: 133 px;
+  width: 50%;
   height: 61px;
   padding: 10px 20px;
   border: none;
   background-color: #DDB377;
   border-radius: 50px;
-  font-size: 29px;
+  font-size: x-large;
   font-weight: 400;
   color: white;
   cursor: pointer;

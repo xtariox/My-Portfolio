@@ -14,8 +14,8 @@
 }
 
 .bold-text{
-  color:rgb(33, 44, 54);
-  
+  color: #d5fffd;
+  font-size: large;
 }
 
 .skill-card {
@@ -36,14 +36,14 @@
 }
 
 .hovered-skill-card {
-  background-color: var(--skill-hovered-card-bg);
+  background-color: rgba(81, 95, 95, 0.6);
   position: absolute;
   width: 100%;
   height: 100%;
   text-align: center;
   padding: 40px 15px;
   color:black;
-  border-radius: 2px 12px 2px 12px;
+  border-radius:12px;
   display: none;
   overflow: hidden;
   transition: background-color 0.5s ease;
@@ -57,7 +57,8 @@
 
 .skill-card:hover.skill-card img {
   transform: scale(1.2);
-  filter: grayscale(45%);
+  filter: grayscale(50%) ;
+  filter: blur(5px);
 }
 
 .skill-card:hover .hovered-skill-card {

@@ -8,6 +8,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    
     <title>My SPACE</title>
     <link rel="stylesheet" href="portfolio-general.css">
     <link rel="stylesheet" href="portfolio-home-page.css">
@@ -20,49 +23,44 @@
   </head>
   <body>
 
-    <main id="home-page">
+    <main id="home-page" class="home">
       <button onclick="topFunction()" id="scrollupButton" title="Go to top">&#9650</button>
 
-      <section class="banner">
-
-        <nav id="NavBar">
-          <div class="logo-container">
-            My SPACE
-          </div>
-          <ul>
-            <li><a href="#home-page">Home</a></li>
-            <li><a href="#About-me-page">About</a></li>
-            <li><a href="#Resume-page-grid">Resume</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-
-        <div class="content">
+      <header>
+        <!--<nav id="NavBar">-->
+        <a href="#" class="logo-container">
+          My SPACE          </a>
+        <ul>
+          <li class="active"><a href="#home-page" >Home</a></li>
+          <li><a href="#About-me-page">About</a></li>            
+          <li><a href="#Resume-page-grid">Resume</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <!--</nav>-->
+      </header>
+       
+        <section class="content">
           <p class="introduction">I am HAIDA Wissal</p>
           <p>An engineering student</p>
           <div class="find-me-container">
-            <button class="find-me-button">find me</button>
-            <div class="social-media">
-              <div>
-                <a href="https://www.instagram.com/xtariox/" target="_blank">
-                  <img class="insta-icon" src="/instagram.png">
-                </a>
+              <button class="find-me-button">find me</button>
+              <div class="social-media">
+                  <a href="https://www.instagram.com/xtariox/" target="_blank">
+                    <img class="insta-icon" src="/instagram.png">
+                  </a>
+                  <a href="https://www.facebook.com/xtariox" target="_blank">
+                    <img class="face-icon" src="/facebook (1).png">
+                  </a>
+                  <a href="https://www.linkedin.com/in/a-haida/" target="_blank">
+                    <img class="link-icon" src="/linkedin.png" >
+                  </a>
               </div>
-              <div>
-                <a href="https://www.facebook.com/xtariox" target="_blank">
-                  <img class="face-icon" src="/facebook (1).png">
-                </a>
-              </div>
-              <div>
-                <a href="https://www.linkedin.com/in/a-haida/" target="_blank">
-                  <img class="link-icon" src="/linkedin.png" >
-                </a>
-              </div>
-            </div>
+            
           </div>
-        </div>
+        </section>
 
-      </section>
+     
 
     </main>
 
@@ -229,7 +227,6 @@
     </main>
 
       
-    <script src="anima.js"></script>  
     <script src="animation.js"></script>  
   </body>
 </html>

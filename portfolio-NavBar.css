@@ -1,3 +1,85 @@
+header {
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  padding: 12px 10%;
+  border-bottom: 1px solid transparent;
+  transition: all .45s ease;
+}
+
+.logo-container {
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+}
+
+header ul li {
+  margin: 0 25px;
+  position: relative;
+}
+
+header ul li::after {
+  content: '';
+  height: 3px;
+  width: 0;
+  background-color: #DDB377;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: width 0.5s;
+}
+
+header ul li a {
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none; 
+  transition: color 0.45s;
+}
+
+header ul li:hover::after {
+  width: 100%;
+}
+
+header ul li a:hover {
+  color: #DDB377;
+}
+
+#menu-icon{
+  font-size: xx-large;
+  color: white;
+  z-index: 2000;
+  cursor: pointer;
+  margin-left:20px;
+  display: none;
+}
+
+header.scrolled {
+  background-color:  #515F5F ;
+  border-bottom: 1px solid  rgb(184, 219, 217,15%);
+}
+
+/*header ul li a {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+
 #NavBar{
   width: 85%;
   margin: auto;
@@ -5,15 +87,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-
+  background: transparent;
+transition: all 0.45 ease;
 }
 
-.logo-container{
-  color: white;
-  font-weight: 700;
-  font-size: 40px;
-  cursor: pointer;
-}
+
 
 #NavBar ul li {
   list-style: none;
@@ -22,13 +100,6 @@
   position: relative;
 }
 
-#NavBar ul li a {
-  text-decoration: none;
-  color: white;
-  text-transform:none;
-  font-weight: 500;
-  font-size: 16px;
-}
 
 #NavBar ul li::after{
   content:'' ;
@@ -49,3 +120,14 @@
 #NavBar li a:hover{
   color: #DDB377;
 }
+
+#NavBar li a:active{
+  color: #DDB377;
+}
+
+#menu-icon{
+  font-size: xx-large;
+  z-index: 100001;
+  cursor: pointer;
+  display: none;
+}*/

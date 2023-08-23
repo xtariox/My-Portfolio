@@ -54,9 +54,18 @@ body{
   flex-direction: column;     /* stack flex items vertically */
   align-items: center;        /* center items horizontally*/
   justify-content: center;    /* center items vertically */
-  padding-top: 5%;
+  padding: 5%;
 }
 
 button:hover{
-  transform: scale(0.95);
+  transform: scale(1.1);
+  transition: all .45s ease;
+
+}
+@media (max-width:1480px) {
+  header{
+    padding: 12px 1.5%;
+    transition: .1s;
+  }
+  
 }

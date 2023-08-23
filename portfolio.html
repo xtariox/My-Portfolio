@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="portfolio-about-me.css">
     <link rel="stylesheet" href="portfolio-resume-page.css">
     <link rel="stylesheet" href="portfolio-skills.css">
+    <link rel="stylesheet" href="portfolio-contact.css">
    
  
   </head>
@@ -27,17 +28,16 @@
       <button onclick="topFunction()" id="scrollupButton" title="Go to top">&#9650</button>
 
       <header>
-        <!--<nav id="NavBar">-->
         <a href="#" class="logo-container">
           My SPACE          </a>
         <ul>
           <li class="active"><a href="#home-page" >Home</a></li>
           <li><a href="#About-me-page">About</a></li>            
           <li><a href="#Resume-page-grid">Resume</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#skill-page">Skills</a></li>
+          <li><a href="#Contact-page">Contact</a></li>
         </ul>
         <div class="bx bx-menu" id="menu-icon"></div>
-        <!--</nav>-->
       </header>
        
         <section class="content">
@@ -74,7 +74,7 @@
         <section class="about-container">
         
           <div class="content-about">
-            <div class="my-picture-container">
+            <div>
               <img class="my-picture" src="WhatsApp_Image_2023-08-04_à_19.43.07-removebg-preview.png">
             </div>
             <div class="text-container">
@@ -149,7 +149,7 @@
 
     </main>
 
-    <main id="skillSection">
+    <main id="skill-page">
       <section class="title-underlined">
         <div class="title-of-page">Skills</div>
         <div class="underline"></div>
@@ -226,6 +226,45 @@
 
     </main>
 
+    <main id="Contact-page">
+      <section class="title-underlined">
+        <div class="title-of-page">Contact</div>
+        <div class="underline"></div>
+      </section>
+
+      <section class="contact" id="contact">
+          <div class="contact-text">
+            <p class="first">Contact <span>ME!</span></p>
+            <p class="second">If you have any project in your mind.</p>
+            <div class="list">
+              <li><b style="color: rgb(184, 219, 217);">Call me: </b><a href="tel:0695221162">06 95 22 11 62</a></li>
+              <li><b style="color: rgb(184, 219, 217);"> Gmail: </b><a href="mailto:ataehaida@gmail.com">ataehaida@gmail.com</a></li>
+            </div>
+  
+            <div class="contact-icons">
+              <a href="https://www.facebook.com/xtariox" target="_blank"><i class='bx bxl-facebook-circle' ></i></a>
+              <a href="https://www.instagram.com/xtariox/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+              <a href="https://www.linkedin.com/in/a-haida/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+              <a href="https://api.whatsapp.com/send?phone=0695221162" target="_blank"><i class='bx bxl-whatsapp'></i></i></a>
+              <a href="#"></a>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form action="">
+              <input type="name" placeholder="Your Name" required>
+              <input type="email" placeholder="Your Email" required>
+              <input type="" placeholder="Your Mobile Number" required>
+              <textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
+              <input type="submit" value="Send Message" class="submit" required>
+            </form>
+          </div>
+      </section>
+  
+    </main>
+
+    <main id="end">
+      <p>Copyright &#169;	2023 by HAIDA Wissal All Rights Reserved.</p>
+    </main>
       
     <script src="animation.js"></script>  
   </body>

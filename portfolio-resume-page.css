@@ -1,5 +1,4 @@
 #Resume-page-grid{
- 
   position: relative;
   transition: background-color 0.5s ease;
 }
@@ -14,7 +13,7 @@
 
 .bold-text{
   color: #d5fffd;
-  font-size: x-large;
+  font-size: xx-large;
 }
 
 .resume-card {
@@ -30,23 +29,21 @@
   overflow: hidden;
   transition: 0.5s ease;
   min-width: 250px;
-  transition: background-color 0.5s ease;
-  transition: opacity 1s ease;
+
 }
 
 .hovered-resume-card {
-  background-color: rgba(81, 95, 95, 0.6);
+
+  background:linear-gradient(rgba(0,0,0,0.5),#ddb37785) ;
   position: absolute;
   width: 100%;
   height: 100%;
-  
   text-align: center;
   padding: 0px 15px;
   color:black;
   border-radius:12px;
   display: none;
   overflow: hidden;
-  transition: background-color 0.5s ease;
 }
 
 .hovered-resume-card p {
@@ -104,3 +101,5 @@
   color: white;
   text-decoration: none;
  }
+
+

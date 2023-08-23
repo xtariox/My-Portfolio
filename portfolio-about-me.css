@@ -8,16 +8,17 @@
 
 .my-picture{
   border-radius: 100%;  
-  width: 400px;
+  width: 230%;
   background-color: rgba(199, 239, 207, 0.5);
   margin: 0;
   padding: 0;
+  min-width: 150px
 }
 
 
 .about-container{
   display: flex;
-  padding: 0% 10%;
+  padding: 0% 10% 5% 5%;
 }
 
 
@@ -39,13 +40,15 @@
 .self-description,
 .check-resume-button
 {
-  margin: 0px 0px 60px 100px;
+  margin: 0px 0px 60px 250px;
 }
 
 .content-about{
   display: flex;
   justify-content: center;
   align-items: center;
+  min-width: 25px
+
 }
 
 .check-resume-button{
@@ -71,4 +74,7 @@
 .check-resume-button a {
   text-decoration: none;
   color: white;
+}
+.text-container{
+  margin: 0 5%;
 }

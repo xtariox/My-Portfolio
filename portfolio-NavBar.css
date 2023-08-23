@@ -17,7 +17,7 @@ header {
 .logo-container {
   color: white;
   font-weight: 700;
-  font-size: 40px;
+  font-size: xx-large;
   cursor: pointer;
   letter-spacing: 1px;
 }
@@ -69,65 +69,7 @@ header ul li a:hover {
 }
 
 header.scrolled {
-  background-color:  #515F5F ;
+  background-color:  #3d4747fa ;
   border-bottom: 1px solid  rgb(184, 219, 217,15%);
 }
 
-/*header ul li a {
-  list-style: none;
-  display: inline-block;
-  margin: 0 20px;
-  position: relative;
-}
-
-#NavBar{
-  width: 85%;
-  margin: auto;
-  padding: 10px 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: transparent;
-transition: all 0.45 ease;
-}
-
-
-
-#NavBar ul li {
-  list-style: none;
-  display: inline-block;
-  margin: 0 20px;
-  position: relative;
-}
-
-
-#NavBar ul li::after{
-  content:'' ;
-  height: 3px;
-  width: 0;
-  background-color: #DDB377;
-  color: #DDB377;
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  transition: 0.5s;
-}
-
-#NavBar ul li:hover::after{
-  width: 100%;
-}
-
-#NavBar li a:hover{
-  color: #DDB377;
-}
-
-#NavBar li a:active{
-  color: #DDB377;
-}
-
-#menu-icon{
-  font-size: xx-large;
-  z-index: 100001;
-  cursor: pointer;
-  display: none;
-}*/

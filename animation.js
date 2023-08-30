@@ -1,9 +1,7 @@
 // -------- scrollUp Button --------
 
-// Get the button
 let mybutton = document.getElementById("scrollupButton");
 
-// When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -14,7 +12,6 @@ function scrollFunction() {
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
@@ -22,17 +19,12 @@ function topFunction() {
 
 // -------- NavBar --------
 
-// Get the header element
 const header = document.querySelector('header');
 
-// Listen for the scroll event
 window.addEventListener('scroll', () => {
-    // Check the scroll position
     if (window.scrollY > 0) {
-        // Add a class to the header when scrolled
         header.classList.add('scrolled');
     } else {
-        // Remove the class if at the top of the page
         header.classList.remove('scrolled');
     }
 });
@@ -54,3 +46,22 @@ document.addEventListener("DOMContentLoaded", function () {
     socialMediaVisible = !socialMediaVisible;
   });
 });
+
+
+//-------- Menu-icon --------
+
+let menu = document.querySelector('#menu-icon');
+let navlist = document.querySelector('.navlist');
+
+menu.onclick = () => {
+  menu.classList.toggle('bx-x');
+  navlist.classList.toggle('open');
+
+};
+
+window.onscroll = () => {
+  menu.classList.remove('bx-x');
+  navlist.classList.remove('open');
+};
+
+//-------- about --------

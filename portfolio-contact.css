@@ -13,7 +13,7 @@
 
 .first{
   color: white;
-  font-size: xx-large;
+  font-size: var(--big-font);
   font-weight: 600;
   line-height: 1;
 }
@@ -24,7 +24,7 @@
 
 .second{
   color: white;
-  font-size: large;
+  font-size: var(--h-font);
   font-weight: 500;
   margin: 18px 0;
 
@@ -36,13 +36,14 @@
 }
 
 .list li{
+  font-size: var(--small-font);
   margin-bottom: 12px;
 }
 
 .list li a{
   display: inline-block;
   color: white;
-  font-size:16px;
+  font-size:var(--small-font);
   transition: all .45s ease;
 }
 
@@ -54,9 +55,9 @@
 .contact-icons i{
   height: 30px;
   width: 30px;
-  background: #DDB377;
+  background: rgb(184, 219, 217,0.74);
   color: white;
-  font-size: 22px;
+  font-size: var(--p-font);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -67,7 +68,7 @@
 
 .contact-icons i:hover{
    background: white;
-   color: #DDB377;
+   color:rgba(161, 190, 189) ;
 }
 
 .contact-form form{
@@ -77,13 +78,13 @@
 
 .contact-form form input,
 form textarea{
-  width: 100%;
+  width: 90%;
   padding: 14px;
   background: #3d4747;
   color: white;
   border: none;
   outline: none;
-  font-size: 15px;
+  font-size: var(--small-font);
   border-radius: 8px;
   margin-bottom: 10px;
   font-family: 'prompt',arial;
@@ -92,17 +93,15 @@ form textarea{
 
 .contact-form textarea{
   resize: none;
-  height: 240px;
-
 }
 
 
 .contact-form .submit{
   display: inline-block;
-  font-size: 16px;
+  font-size: var(--small-font);
+  width: 150px;
   background: #DDB377;
   color: white;
-  width: 160px;
   transition: all .45s ease;
   border-radius: 50px;
 }

@@ -5,19 +5,21 @@ header {
   top: 0;
   right: 0;
   z-index: 1000;
-  display: flex;
+  display: flex; 
   align-items: center;
-  justify-content: space-between;
+  justify-content:space-between;
   background: transparent;
-  padding: 12px 10%;
+  padding: 12px 15%;
   border-bottom: 1px solid transparent;
   transition: all .45s ease;
 }
 
+
+
 .logo-container {
   color: white;
   font-weight: 700;
-  font-size: xx-large;
+  font-size: var(--logo-font);
   cursor: pointer;
   letter-spacing: 1px;
 }
@@ -30,9 +32,11 @@ header ul {
 header ul li {
   margin: 0 25px;
   position: relative;
+  font-size: var(--small-font);
 }
 
 header ul li::after {
+  display: inline-block;
   content: '';
   height: 3px;
   width: 0;
@@ -46,10 +50,10 @@ header ul li::after {
 header ul li a {
   color: white;
   font-weight: 500;
-  font-size: 16px;
   text-decoration: none; 
   transition: color 0.45s;
 }
+
 
 header ul li:hover::after {
   width: 100%;
@@ -59,8 +63,10 @@ header ul li a:hover {
   color: #DDB377;
 }
 
+
+
 #menu-icon{
-  font-size: xx-large;
+  font-size: var(--h-font);
   color: white;
   z-index: 2000;
   cursor: pointer;

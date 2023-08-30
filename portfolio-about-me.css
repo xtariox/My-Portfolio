@@ -1,29 +1,32 @@
+
+
 #About-me-page{
   padding: 25px;
   background-color: rgb(184, 219, 217,15%);
   position: relative;
   transition: background-color 0.5s ease;
   overflow: hidden;
+  width: 100%;
 }
 
 .my-picture{
+  width: 450px;
   border-radius: 100%;  
-  width: 230%;
   background-color: rgba(199, 239, 207, 0.5);
-  margin: 0;
-  padding: 0;
-  min-width: 150px
+
 }
+
 
 
 .about-container{
   display: flex;
-  padding: 0% 10% 5% 5%;
+  padding: 0% 5% 5% 5%;
+  margin-bottom: 20px;
 }
 
 
 .hello{
-  font-size:xx-large;
+  font-size:var(--h-font);
   font-weight: 620;
 }
 
@@ -32,32 +35,39 @@
 }
 
 .self-description{
-  font-size: x-large;
-  width: 82%;
+  font-size: var(--p-font);
+  width: 100%;
 }
 
 .hello,
 .self-description,
 .check-resume-button
 {
-  margin: 0px 0px 60px 250px;
+  margin: 3% 0;
+}
+
+.text-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .content-about{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  min-width: 25px
+}
 
+.check-resume-button-container{
+  min-width: 40%;
 }
 
 .check-resume-button{
-  width: 30%;
-  padding: 20px 10px;
+  padding: 3vh 2vw;
   border: none;
   background-color: #DDB377;
-  border-radius: 50px;
-  font-size: x-large;
+  border-radius:var(--big-font);
+  font-size: var(--p-font);
   font-weight: 400;
   color: white;
   cursor: pointer;
@@ -78,3 +88,4 @@
 .text-container{
   margin: 0 5%;
 }
+

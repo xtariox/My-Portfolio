@@ -1,3 +1,8 @@
+html,body,section{
+  overflow-x: hidden;
+}
+
+
 *{
   margin: 0;
   padding: 0;
@@ -7,13 +12,20 @@
   box-sizing: border-box;
 }
 
+:root{
+  --big-font: 3.5rem;
+  --h-font: 2.5rem;
+  --p-font:1.5rem;
+  --logo-font: 2rem;
+  --small-font: 1.2rem;
+}
+
 #scrollupButton {
   display: none;
   position: fixed;
   bottom: 20px;
   right: 30px;
   z-index: 2000;
-  font-size: 18px;
   border: none;
   outline: none;
   background-color: #fff;
@@ -35,10 +47,12 @@ body{
   font-family: Prompt, Arial;
   width: 100%;
   height: 100hv;
+  padding: 0;
+  margin: 0;
 }
 
 .title-of-page{
-  font-size: 40px;
+  font-size: var(--big-font);
   color: #DDB377;
   font-weight: 620;
 }
@@ -62,10 +76,5 @@ button:hover{
   transition: all .45s ease;
 
 }
-@media (max-width:1480px) {
-  header{
-    padding: 12px 1.5%;
-    transition: .1s;
-  }
-  
-}
+
+

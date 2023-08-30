@@ -16,7 +16,7 @@
 
 .bold-text{
   color: #d5fffd;
-  font-size: large;
+  font-size: var(--p-font);
 }
 
 .skill-card {

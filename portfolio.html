@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Prompt:wght@400;500;700&display=swap" rel="stylesheet">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta name="description" content="">
     <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="portfolio-resume-page.css">
     <link rel="stylesheet" href="portfolio-skills.css">
     <link rel="stylesheet" href="portfolio-contact.css">
+    <link rel="stylesheet" href="media.css">
    
  
   </head>
@@ -29,15 +30,17 @@
 
       <header>
         <a href="#" class="logo-container">
-          My SPACE          </a>
-        <ul>
-          <li class="active"><a href="#home-page" >Home</a></li>
-          <li><a href="#About-me-page">About</a></li>            
-          <li><a href="#Resume-page-grid">Resume</a></li>
+          My SPACE
+        </a>
+        <ul class="navlist">
+          <li ><a href="#home-page">Home</a></li>
+          <li><a href="#About-me-page">About</a></li>                        <li><a href="#Resume-page-grid">Resume</a></li>
           <li><a href="#skill-page">Skills</a></li>
           <li><a href="#Contact-page">Contact</a></li>
         </ul>
         <div class="bx bx-menu" id="menu-icon"></div>
+        
+        
       </header>
        
         <section class="content">
@@ -64,20 +67,20 @@
 
     </main>
 
-    <main id="About-me-page">
+    <main id="About-me-page"  >
       
         <section class="title-underlined">
           <div class="title-of-page">About Me</div>
           <div class="underline"></div>
         </section>
 
-        <section class="about-container">
+        <section class="about-container ">
         
-          <div class="content-about">
-            <div>
-              <img class="my-picture" src="WhatsApp_Image_2023-08-04_à_19.43.07-removebg-preview.png">
+          <div class="content-about ">
+            <div class="my-picture-container">
+              <img class="my-picture show " src="WhatsApp_Image_2023-08-04_à_19.43.07-removebg-preview.png">
             </div>
-            <div class="text-container">
+            <div class="text-container ">
               <div class="hello">HELLO? I AM <span class="name">HAIDA WISSAL</span></div>
               <div class="self-description">
                 I am a dedicated and pationate individual with 
@@ -85,12 +88,12 @@
                 My background in engineering developped 
                 my skills in coding and web developpement. 
               </div>
-              <div>
+              <div class="check-resume-button-container">
                 <a href="#Resume-page-grid">
                 <button class="check-resume-button">
                   Check resume
                 </button>
-              </a>
+                </a>
               </div>
             </div>
           </div>

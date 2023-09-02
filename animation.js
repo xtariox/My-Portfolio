@@ -1,3 +1,19 @@
+//-------- Menu-icon --------
+
+let menu = document.querySelector('#menu-icon');
+let navlist = document.querySelector('.navlist');
+
+menu.onclick = () => {
+  menu.classList.toggle('bx-x');
+  navlist.classList.toggle('open');
+
+};
+
+window.onscroll = () => {
+  menu.classList.remove('bx-x');
+  navlist.classList.remove('open');
+};
+
 // -------- scrollUp Button --------
 
 let mybutton = document.getElementById("scrollupButton");
@@ -16,6 +32,7 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
 
 // -------- NavBar --------
 
@@ -48,20 +65,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-//-------- Menu-icon --------
 
-let menu = document.querySelector('#menu-icon');
-let navlist = document.querySelector('.navlist');
-
-menu.onclick = () => {
-  menu.classList.toggle('bx-x');
-  navlist.classList.toggle('open');
-
-};
-
-window.onscroll = () => {
-  menu.classList.remove('bx-x');
-  navlist.classList.remove('open');
-};
 
 //-------- about --------

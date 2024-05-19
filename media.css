@@ -7,6 +7,17 @@
   section{
     padding: 110px 3% 60px;
   }
+
+  .skill-card p{
+    font-size: 75%;
+  }
+  .skill-card img{
+    padding: 20%;
+  }
+
+  .resume-section img{
+    padding: 20%;
+  }
 }
 
 @media screen and (max-width: 1100px) {
@@ -50,6 +61,8 @@
   .my-picture{
     width: 400px;
   }
+
+  
 }
 
 @media screen and (max-width: 920px) {
@@ -119,19 +132,29 @@
     top: 100%;
   }
 
+  .skill-card{
+    flex-basis: 40%;
+  
+  }
+
 }
 
 @media screen and (max-width: 640px) {
   .content{
   background-size:cover;
 
-}
+  }
 
 
-.about-container{
-  padding: 10% 0 5% 0;
-}
+  .about-container{
+    padding: 10% 0 5% 0;
+  }
   .my-picture{
     width:300px;
+  }
+
+  .skill-card{
+    flex-basis: 100%;
+  
   }
 }
